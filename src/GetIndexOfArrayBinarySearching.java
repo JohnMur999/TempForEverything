@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Optional;
 import java.util.Random;
 
-public class Live {
+public class GetIndexOfArrayBinarySearching {
     public static int[] generateSortedArray(int size) {
         Random random = new Random();
         int[] array = new int[size];
