@@ -30,7 +30,7 @@ public class YaCalculateString {
         return Optional.of(String.valueOf(result));
     }
 
-    public int calculateWithMoreTime(String exp) {
+    public int calculateWithMoreMemory(String exp) {
         return stream(exp.split("\\+"))
                 .map(it -> stream(it.split("\\*"))
                         .mapToInt(Integer::parseInt)
@@ -46,7 +46,8 @@ public class YaCalculateString {
                 "23",
                 "22+3",
                 "1*3+6*2+2",
-                "12+35"
+                "12+35",
+                "7+8*3+2"
         };
 
         for (String testCase : testCases) {
