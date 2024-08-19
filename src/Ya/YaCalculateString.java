@@ -1,3 +1,5 @@
+package Ya;
+
 import java.util.Optional;
 
 import static java.util.Arrays.stream;
